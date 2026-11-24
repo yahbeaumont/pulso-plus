@@ -1,0 +1,32 @@
+{
+  "caso_id": "CENARIO-SINTETICO-A",
+  "idade": 55,
+  "sexo": "M",
+  "consultas": [
+    {"data": "2026-10-20", "pas": 145, "pad": 95},
+    {"data": "2026-11-03", "pas": 148, "pad": 96}
+  ],
+  "medicamentos_em_uso": [
+    {"nome": "losartana", "dose": "50 mg", "frequencia": "1 vez ao dia"}
+  ],
+  "comorbidades": [],
+  "exames_recentes": {
+    "colesterol_total": 190,
+    "hdl": 50,
+    "drfg_estimada": 90,
+    "imc": 26,
+    "creatinina": 1.0,
+    "potassio": 4.3
+  },
+  "sintomas_atuais": ["assintomático"],
+  "diabetes": false,
+  "tabagismo_atual": false,
+  "em_uso_anti_hipertensivo": true,
+  "em_uso_estatina": false,
+  "doenca_cardiovascular_previa": false,
+  "gestante": false,
+  "suspeita_hipertensao_secundaria": false,
+  "observacoes": "Caso integralmente sintético para QA; datas, medicamento em uso, creatinina, potássio e negativas adicionais são premissas fictícias declaradas, não dados reais nem prescrição.",
+  "status_dados": "completo",
+  "dados_faltantes": []
+}

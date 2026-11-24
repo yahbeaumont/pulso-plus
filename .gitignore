@@ -1,23 +1,9 @@
-# Operating system and editor files
-.DS_Store
-Thumbs.db
-*.swp
-.idea/
-.vscode/
-
-# Local tooling for the examples
-node_modules/
-package-lock.json
-pnpm-lock.yaml
-yarn.lock
-
-# Environment and credentials, never published
+.venv/
+__pycache__/
+*.pyc
 .env
 .env.*
-!.env.example
-*.pem
-*.key
-
-# Local scratch output
-*.log
-tmp/
+artifact-manifest.json
+build/
+.streamlit/secrets.toml
+.pytest_cache/

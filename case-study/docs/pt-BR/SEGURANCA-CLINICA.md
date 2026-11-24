@@ -58,7 +58,7 @@ O prompt é visível para qualquer pessoa com acesso à publicação, e o compor
 
 ## Avaliação
 
-A suíte tem 46 testes, todos offline: valores de fronteira dos estágios de pressão, regra de confirmação com uma e duas medidas, modelo de risco contra valores publicados, matriz de contraindicação, portão de sinais de alarme, esquemas, guarda de saída e invariantes.
+A suíte validada tem 46 testes, todos offline: valores de fronteira dos estágios de pressão, regra de confirmação com uma e duas medidas, modelo de risco contra valores publicados, matriz de contraindicação, portão de sinais de alarme, esquemas, guarda de saída e invariantes.
 
 O benchmark usou 50 casos sintéticos escritos para cobrir os ramos do protocolo. Cada caso tem uma conduta de referência escrita à mão a partir da diretriz. O agente concordou com a referência em 40 por cento dos casos, não produziu erro crítico pelos critérios implementados, e todos os casos foram encaminhados para revisão humana. O critério de erro crítico era estreito: classe proibida diante de comorbidade documentada, achado de emergência não escalado, estágio atribuído abaixo da pressão medida. Uma definição mais ampla produziria outro número.
 

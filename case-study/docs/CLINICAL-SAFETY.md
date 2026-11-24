@@ -58,7 +58,7 @@ The prompt is visible to anyone with access to the deployment, and the model's b
 
 ## Evaluation
 
-The suite has 46 tests, all offline: boundary values for the pressure stages, the confirmation rule with one and two readings, the risk model against published reference values, the contraindication matrix, the red-flag gate, the schemas, the egress guard, and the invariants.
+The validated suite has 46 tests, all offline: boundary values for the pressure stages, the confirmation rule with one and two readings, the risk model against published reference values, the contraindication matrix, the red-flag gate, the schemas, the egress guard, and the invariants.
 
 The benchmark used 50 synthetic cases written to cover the protocol's branches. Each case has a reference conduct written by hand from the guideline. The agent agreed with the reference in 40 percent of cases, produced no critical error under the criteria implemented, and every case was routed to human review. The criteria for critical error were narrow: a forbidden drug class for a documented comorbidity, an emergency finding not escalated, a stage assigned below the measured pressure. A wider definition would have produced a different number.
 
